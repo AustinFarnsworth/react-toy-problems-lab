@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import TopicBrowser from './components/TopicBrowser/TopicBrowser';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello world!</h1>
+     <TopicBrowser />
+
     )
   }
 }
